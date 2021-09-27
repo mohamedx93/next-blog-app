@@ -1,0 +1,26 @@
+.postContent {
+  font-size: 34px;
+  line-height: 43px;
+  margin-bottom: 0.3em;
+}
+
+.postMeta {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.postMetaData {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+  margin-top: 0.3em;
+  margin-right: 1em;
+  svg {
+    font-size: 0.8em;
+    margin-right: 0.3em;
+  }
+}
