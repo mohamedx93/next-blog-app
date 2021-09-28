@@ -39,4 +39,4 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
