@@ -18,7 +18,6 @@ export default function Bio({ headshot, name, tagline, role }) {
     )
 }
 
-
 Bio.propTypes = {
     headshot: PropTypes.string,
     name: PropTypes.string.isRequired,

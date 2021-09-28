@@ -1,13 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-import PostForm from './';
+import PostForm from './'
 
 export default {
-    title: 'Components/PostForm',
-    component: PostForm,
-};
+  title: 'Components/PostForm',
+  component: PostForm
+}
 
-const Template = () => (<PostForm />);
+const Template = () => (<PostForm />)
 
-export const Default = Template.bind({});
-
+export const Default = Template.bind({})
