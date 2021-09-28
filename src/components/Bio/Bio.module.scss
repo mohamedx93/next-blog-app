@@ -1,6 +1,7 @@
 .bio {
   display: flex;
 }
+
 .bioImage {
   img {
     height: 16em;
@@ -8,12 +9,14 @@
     border-radius: 50%;
   }
 }
+
 .bioContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 3em;
 }
+
 .bioContentName {
   font-weight: 900;
   font-size: 52px;
@@ -21,6 +24,7 @@
   color: #4948a7;
   margin: 0;
 }
+
 .bioContentTagline {
   font-size: 37px;
   line-height: 47px;
