@@ -1,12 +1,12 @@
 $primary-color: #0070f3;
 
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  min-height: 100vh;
+  padding: 0 0.5rem;
 }
 
 .main {
@@ -15,18 +15,18 @@ $primary-color: #0070f3;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
   font-size: 3.5em;
+  line-height: 1.15;
+  margin: 0;
   text-align: center;
 }
 
 .posts {
   list-style: none;
-  padding: 0;
   margin: 5em 0;
+  padding: 0;
 
-  & > li {
+  > li {
     margin-bottom: 3em;
 
     &:last-child {

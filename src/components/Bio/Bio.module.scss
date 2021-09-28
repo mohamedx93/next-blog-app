@@ -1,14 +1,14 @@
 .bio {
   display: flex;
-// justify-content: space-around;
+  // justify-content: space-around;
 }
 
 .bioImage {
-// position: relative;
+  // position: relative;
   img {
-    height: 16em !important;
     aspect-ratio: 1 !important;
     border-radius: 50% !important;
+    height: 16em !important;
   }
 }
 
@@ -20,25 +20,25 @@
 }
 
 .bioContentName {
-  font-weight: 900;
-  font-size: 52px;
-  line-height: 65px;
   color: #4948a7;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 65px;
   margin: 0;
 }
 
 .bioContentTagline {
+  color: #414141;
   font-size: 37px;
   line-height: 47px;
-  color: #414141;
-  margin-top: 0.2em;
   margin-bottom: 0.4em;
+  margin-top: 0.2em;
 }
 
 .bioContentRole {
-  font-weight: bold;
-  font-size: 29px;
-  line-height: 36px;
   color: #414141;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 36px;
   margin: 0;
 }

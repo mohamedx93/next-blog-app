@@ -5,20 +5,20 @@
 }
 
 .postMeta {
-  padding: 0;
-  list-style: none;
-  display: flex;
   align-items: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .postMetaData {
-  display: flex;
   align-items: center;
-  font-weight: 600;
+  display: flex;
   font-size: 26px;
+  font-weight: 600;
   line-height: 33px;
-  margin-top: 0.3em;
   margin-right: 1em;
+  margin-top: 0.3em;
 
   svg {
     font-size: 0.8em;
