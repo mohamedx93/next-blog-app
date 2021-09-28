@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './Bio.module.scss'
-import Image from 'next/image';
 import { PropTypes } from 'prop-types';
 
 export default function Bio({ headshot, name, tagline, role }) {
     return (
         <div className={styles.bio}>
             <div className={styles.bioImage}>
-                <Image loader={() => headshot} src={headshot} layout='fill' alt={`Headshot of ${name}`} />
+            <img src={headshot} alt={`Headshot of ${name}`} />
             </div>
+            
             <div className={styles.bioContent}>
                 <p className={styles.bioContentName}>{name}</p>
                 <p className={styles.bioContentTagline}>{tagline}</p>
