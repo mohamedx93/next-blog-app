@@ -7,7 +7,7 @@ export default function Bio({ headshot, name, tagline, role }) {
     return (
         <div className={styles.bio}>
             <div className={styles.bioImage}>
-                <Image src={headshot} alt={`Headshot of ${name}`} />
+                <Image loader={() => headshot} src={headshot} layout='fill' alt={`Headshot of ${name}`} />
             </div>
             <div className={styles.bioContent}>
                 <p className={styles.bioContentName}>{name}</p>

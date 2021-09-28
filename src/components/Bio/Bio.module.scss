@@ -1,11 +1,13 @@
 .bio {
   display: flex;
+justify-content: space-around;
 }
 
 .bioImage {
-  img {
+position: relative;
+  &>div {
     height: 16em;
-    width: auto;
+    aspect-ratio: 1;
     border-radius: 50%;
   }
 }
